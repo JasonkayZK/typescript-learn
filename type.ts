@@ -1,8 +1,3 @@
-## **TypeScript中的基本类型**
-
-TypeScript中的基本类型：
-
-```typescript
 /* 1.变量类型声明和初始化 */
 
 let a: number;
@@ -229,7 +224,3 @@ let m: myType;
 
 k = 2;
 // k = 6 // error!
-```
-
-
-
