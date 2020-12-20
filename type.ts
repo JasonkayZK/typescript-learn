@@ -94,18 +94,6 @@ if (typeof a62 === "string") {
     s = a62;
 }
 
-/* 6.2.3 类型断言 */
-
-// 类型断言，用来帮助编译器判断变量的实际类型
-/*
-* 语法：
-*   变量 as 类型
-*   <类型>变量
-*
-* */
-s = a62 as string;
-s = <string>a62;
-
 /* 6.3 void */
 
 // void 用来表示空，主要用于函数中
@@ -207,7 +195,7 @@ enum Gender {
     Female,
 }
 
-let a68: {name: string, gender: Gender};
+let a68: { name: string, gender: Gender };
 a68 = {
     name: 'hello',
     gender: Gender.Male
@@ -224,3 +212,25 @@ let m: myType;
 
 k = 2;
 // k = 6 // error!
+
+/* 8.类型断言 */
+
+// 类型断言，用来帮助编译器判断变量的实际类型
+/*
+* 语法：
+*   变量 as 类型
+*   <类型>变量
+*
+* */
+
+// 有些情况下，变量的类型对于我们来说是很明确
+// 但是TS编译器却并不清楚
+// 此时，可以通过类型断言来告诉编译器变量的类型
+// 断言有两种形式：
+
+// 8.1：变量 as 类型
+let someValue: unknown = "this is a string";
+let strLength: number = (someValue as string).length;
+
+// 8.2：<类型>变量
+let strLength2: number = (<string>someValue).length;
