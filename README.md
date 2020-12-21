@@ -11,6 +11,7 @@ A repo to learn TypeScript.
 | **学习内容**                                                 | **更新时间** | **备注** |
 | ------------------------------------------------------------ | ------------ | -------- |
 | [TypeScript中的基本类型](https://github.com/JasonkayZK/typescript_learn/tree/1-type) | 2020-12-20   |          |
+| [编译选项](https://github.com/JasonkayZK/typescript_learn/tree/2-compile-options) | 2020-12-21   |          |
 |                                                              |              |          |
 |                                                              |              |          |
 
