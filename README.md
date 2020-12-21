@@ -8,12 +8,14 @@ A repo to learn TypeScript.
 
 **学习进度：**
 
-| **学习内容**                                                 | **更新时间** | **备注**                   |
-| ------------------------------------------------------------ | ------------ | -------------------------- |
-| [TypeScript中的基本类型](https://github.com/JasonkayZK/typescript_learn/tree/1-type) | 2020-12-20   |                            |
-| [编译选项](https://github.com/JasonkayZK/typescript_learn/tree/2-compile-options) | 2020-12-21   |                            |
-| [TypeScript打包](https://github.com/JasonkayZK/typescript_learn/tree/3-webpack) | 2020-12-21   | Webpack整合<br />Babel整合 |
-|                                                              |              |                            |
-|                                                              |              |                            |
+| **学习内容**                                                 | **更新时间** | **备注**                                            |
+| ------------------------------------------------------------ | ------------ | --------------------------------------------------- |
+| [TypeScript中的基本类型](https://github.com/JasonkayZK/typescript_learn/tree/1-type) | 2020-12-20   |                                                     |
+| [编译选项](https://github.com/JasonkayZK/typescript_learn/tree/2-compile-options) | 2020-12-21   |                                                     |
+| [TypeScript打包](https://github.com/JasonkayZK/typescript_learn/tree/3-webpack) | 2020-12-21   | Webpack整合<br />Babel整合                          |
+| [面向对象](https://github.com/JasonkayZK/typescript_learn/tree/4-OOP) | 2020-12-21   | class、构造器、继承<br />supuer、抽象类、封装<br /> |
+|                                                              |              |                                                     |
+|                                                              |              |                                                     |
+|                                                              |              |                                                     |
 
 
