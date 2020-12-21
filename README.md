@@ -15,6 +15,7 @@ A repo to learn TypeScript.
 | [TypeScript打包](https://github.com/JasonkayZK/typescript_learn/tree/3-webpack) | 2020-12-21   | Webpack整合<br />Babel整合                          |
 | [面向对象](https://github.com/JasonkayZK/typescript_learn/tree/4-OOP) | 2020-12-21   | class、构造器、继承<br />supuer、抽象类、封装<br /> |
 | [接口](https://github.com/JasonkayZK/typescript_learn/tree/5-interface) | 2020-12-21   |                                                     |
+| [泛型](https://github.com/JasonkayZK/typescript_learn/tree/6-generic) | 2020-12-21   |                                                     |
 |                                                              |              |                                                     |
 |                                                              |              |                                                     |
 
