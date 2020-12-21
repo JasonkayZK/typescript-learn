@@ -52,6 +52,60 @@ const p = new Person('孙悟空', 18);
 p.sayHello();
 ```
 
+### 构造函数
+
+可以使用`constructor`定义一个构造器方法；
+
+>   **注1：在TS中只能有一个构造器方法！**
+
+例如：
+
+```typescript
+class C{
+    name: string;
+    age: number
+
+    constructor(name: string, age: number) {
+        this.name = name;
+        this.age = age;
+    }
+}
+```
+
+同时也可以直接将属性定义在构造函数中：
+
+```typescript
+class C {
+    constructor(public name: string, public age: number) {
+    }
+}
+```
+
+上面两种定义方法是完全相同的！
+
+**注2：子类继承父类时，必须调用父类的构造方法（如果子类中也定义了构造方法）！**
+
+例如：
+
+```typescript
+class A {
+    protected num: number;
+    constructor(num: number) {
+        this.num = num;
+    }
+}
+
+class X extends A {
+    protected name: string;
+    constructor(num: number, name: string) {
+        super(num);
+        this.name = name;
+    }
+}
+```
+
+如果在X类中不调用`super`将会报错！
+
 ### 封装
 
 对象实质上就是属性和方法的容器，它的主要作用就是存储属性和方法，这就是所谓的封装
@@ -191,8 +245,10 @@ class Person{
 }
 
 const p1 = new Person('孙悟空');
-console.log(p1.name); // 通过getter读取name属性
-p1.name = '猪八戒'; // 通过setter修改name属性
+// 实际通过调用getter方法读取name属性
+console.log(p1.name);
+// 实际通过调用setter方法修改name属性 
+p1.name = '猪八戒'; 
 ```
 
 ### 静态属性
