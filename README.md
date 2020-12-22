@@ -16,7 +16,13 @@ A repo to learn TypeScript.
 | [面向对象](https://github.com/JasonkayZK/typescript_learn/tree/4-OOP) | 2020-12-21   | class、构造器、继承<br />supuer、抽象类、封装<br /> |
 | [接口](https://github.com/JasonkayZK/typescript_learn/tree/5-interface) | 2020-12-21   |                                                     |
 | [泛型](https://github.com/JasonkayZK/typescript_learn/tree/6-generic) | 2020-12-21   |                                                     |
-|                                                              |              |                                                     |
+| [贪吃蛇练习](https://github.com/JasonkayZK/typescript_learn/tree/greedy-snake) | 2020-12-22   |                                                     |
 |                                                              |              |                                                     |
 
+其他学习：
+
+-   [TypeScript 入门教程](https://ts.xcatliu.com/)
+-   [深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese/)
+-   [TS官方文档](https://www.tslang.cn/docs/home.html)
+-   [TS与各框架整合官方案例](https://www.tslang.cn/samples/index.html)
 
