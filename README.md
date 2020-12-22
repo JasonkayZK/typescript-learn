@@ -62,12 +62,9 @@ npm run build
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    // 修改为其他浏览器
     "start": "webpack serve --open chrome.exe"
-  },
-  ……
+  }
 }
-
 ```
 
 ### **其他**
