@@ -19,7 +19,7 @@ A repo to learn TypeScript.
 | [贪吃蛇练习](https://github.com/JasonkayZK/typescript_learn/tree/greedy-snake) | 2020-12-22   |                                                     |
 |                                                              |              |                                                     |
 
-其他学习：
+**其他学习：**
 
 -   [TypeScript 入门教程](https://ts.xcatliu.com/)
 -   [深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese/)
