@@ -1,0 +1,100 @@
+// 设置变量
+@bg-color: #b7d4a8;
+
+// 清除默认样式
+* {
+  margin: 0;
+  padding: 0;
+  // 改变盒子模型的计算方式
+  box-sizing: border-box;
+}
+
+body {
+  font: bold 20px "Courier";
+}
+
+//设置主窗口的样式
+#main {
+  width: 360px;
+  height: 420px;
+  background-color: @bg-color;
+  // 设置居中
+  margin: 100px auto;
+  // 设置边框
+  border: 10px solid black;
+  // 设置圆角
+  border-radius: 40px;
+
+  // 开启弹性盒模型
+  display: flex;
+  // 设置主轴的方向
+  flex-flow: column;
+  // 设置侧轴的对齐方式
+  align-items: center;
+  // 设置主轴的对齐方式
+  justify-content: space-around;
+
+  // 游戏舞台
+  #stage {
+    width: 304px;
+    height: 304px;
+    border: 2px solid black;
+    // 开启相对定位
+    position: relative;
+
+    // 设置蛇的样式
+    #snake {
+      & > div {
+        width: 10px;
+        height: 10px;
+        background-color: #000;
+        // 蛇的边框颜色和背景颜色相同
+        border: 1px solid @bg-color;
+        // 开启绝对定位
+        position: absolute;
+      }
+    }
+
+    // 设置食物
+    #food {
+      width: 10px;
+      height: 10px;
+      position: absolute;
+      // 初始化一个位置
+      left: 40px;
+      top: 100px;
+
+      // 开启弹性盒
+      display: flex;
+      // 设置横轴为主轴，wrap表示会自动换行
+      flex-flow: row wrap;
+
+      // 设置主轴和侧轴的空白空间分配到元素之间
+      justify-content: space-between;
+      align-content: space-between;
+
+      & > div {
+        width: 4px;
+        height: 4px;
+        background-color: black;
+
+        // 使四个div旋转45度
+        transform: rotate(45deg);
+      }
+    }
+  }
+
+  // 记分牌
+  #score-panel {
+    width: 300px;
+    display: flex;
+    // 设置主轴对齐方式
+    justify-content: space-between;
+  }
+}
+
+
+
+
+
+
